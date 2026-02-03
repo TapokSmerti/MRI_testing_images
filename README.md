@@ -5,13 +5,13 @@
 This project is a **command-line DICOM image processing tool** designed for basic MRI image analysis, including **signal and noise estimation** and **SNR calculation**.  
 The script loads a DICOM file, automatically detects the region of interest (ROI), separates signal and background noise regions using morphological operations, and visualizes the results.
 
-The output is a PNG image with **annotated contours and quantitative metrics**, suitable for quality control and exploratory analysis of medical images.
+The output is a PNG image with annotated contours and quantitative metrics. For testing, a sample image in .dcm format is included in this repo. 
 
 ---
 
 ## Features
 
-- Interactive **menu-driven CLI interface**
+- Interactive **CLI interface**
 - File selection via **Tkinter GUI**
 - DICOM image loading using **pydicom**
 - Automatic ROI detection using **OpenCV contours**
